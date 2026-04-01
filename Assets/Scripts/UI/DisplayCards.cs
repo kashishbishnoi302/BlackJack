@@ -13,9 +13,9 @@ public class DisplayCards : MonoBehaviour
     public void Display(Card card)
     {
         char suite = card.suite;
-        char value = card.value;
+        string value = card.value;
         
-        string name = suite.ToString() + value.ToString();
+        string name = suite.ToString() + value;
         
         // get the specific sprite from allImages using suite and value:
         Sprite sprite = GetSprite(name);

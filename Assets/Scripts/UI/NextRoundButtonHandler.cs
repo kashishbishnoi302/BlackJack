@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-public class NextRoundHandler : MonoBehaviour
+public class NextRoundButtonHandler : MonoBehaviour
 {
 
     [SerializeField] private Button nextRoundBtn;

@@ -39,6 +39,5 @@ public class MoneyManager : MonoBehaviour
         DealerMoney += UserBet;
     }
     
-    
    
 }

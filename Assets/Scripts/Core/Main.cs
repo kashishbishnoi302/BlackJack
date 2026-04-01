@@ -22,15 +22,15 @@ public class Main : MonoBehaviour
     [SerializeField] private Button NextRoundButton;
     [SerializeField] private RoundHandler roundHandler;
     [SerializeField] private StatsHandler statsHandler;
-    public int round;
-    public bool isRoundOver;
-    public bool isGameOn;
-    public bool playerWon;
-    public int wins;
-    public int losses;
+    private int round;
+    private bool isRoundOver;
+    private bool isGameOn;
+    private bool playerWon;
+    private int wins;
+    private int losses;
     
     
-    void Start()
+    private void Start()
     {
         cardList = deck.cardList;
         StartRound();
@@ -67,8 +67,6 @@ public class Main : MonoBehaviour
         // display the cards of dealer
         displayDealerCards.Display(card3);
         displayDealerCards.Display(card4);
-        
-        
     }
     
     
@@ -79,7 +77,7 @@ public class Main : MonoBehaviour
         Card card = null;
         while (!found)
         {
-            int indx = UnityEngine.Random.Range(0, 48);
+            int indx = UnityEngine.Random.Range(0, cardList.Count);
             card = cardList[indx];
             if(card.used == false)
             {

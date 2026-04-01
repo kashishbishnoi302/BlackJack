@@ -12,10 +12,8 @@ public class ConfirmButtonHandler : MonoBehaviour
         // remove the slider , reset UI and activate the deal button
         betUIController.DeActivateBetSlider();
         betUIController.ResetBetUI();
-
         dealbutton.interactable = true;
-
-
+        
     }
     
 }

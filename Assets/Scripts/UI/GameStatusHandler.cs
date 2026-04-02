@@ -1,8 +1,11 @@
 using UnityEngine;
 using TMPro;
+
+// Big win/lose message at the end of a hand.
 public class GameStatusHandler : MonoBehaviour
 {
     public TMP_Text resultText;
+
     void Start()
     {
         gameObject.SetActive(false);
@@ -19,7 +22,4 @@ public class GameStatusHandler : MonoBehaviour
             resultText.text = "YOU LOST!";
         }
     }
-    
-
-    
 }

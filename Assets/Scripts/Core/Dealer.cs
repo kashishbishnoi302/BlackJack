@@ -1,6 +1,4 @@
-
-
-    [System.Serializable] public class Dealer : User
-    {
-        
-    }
+[System.Serializable]
+public class Dealer : User
+{
+}

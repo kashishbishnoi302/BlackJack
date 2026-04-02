@@ -544,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playingCards_19
+      name: hidden
       rect:
         serializedVersion: 2
         x: 140
@@ -1357,7 +1357,7 @@ TextureImporter:
       SJ: 1653172184
       SK: 1907197143
       SQ: -3108102147801731531
-      playingCards_19: 1673012802
+      hidden: 1673012802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,4 @@
-
-    [System.Serializable] public class Player : User
-    {
-        
-    }
+[System.Serializable]
+public class Player : User
+{
+}
